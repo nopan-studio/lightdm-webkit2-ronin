@@ -1,24 +1,28 @@
 @import url("reset.css");
 
 :root {
-	--main-accent-color: #3366ff;
-	--main-accent-color-hover: #598bff;
-	--main-bg-color: #151a30;
-	--main-bg-color-disabled: #1b233b;
-	--main-bg-color-input: #1a2138;
-	--main-bg-color-panel: #222b45;
-	--main-bg-color-selected: #2e3a59;
-	--main-border-color: #101426;
-	--main-fg-color: #fff;
-	--main-fg-color-dimmed: #6a748d;
-	--main-fg-color-error: #ff3d71;
+	--main-accent-color: #38393A;
+	--main-accent-color-hover: #38393A;
+	--main-bg-color: #362124;
+	--main-bg-color-disabled: #171717;
+	--main-bg-color-input: #262626;
+	--main-bg-color-panel: #171717;
+	--main-bg-color-selected: #dfdfaf;
+	--main-border-color: #171717;
+	--main-fg-color: #B2996E;
+	--main-fg-color-dimmed: #B2996E;
+	--main-fg-color-error: #B2996E;
 
 	--main-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
 	--main-font: "Noto Sans";
 }
 
 body {
-	 background-color: var(--main-bg-color);
+	 /*background-color: var(--main-bg-color);*/
+	 background-image: url('../wall.png');
+	 background-size:cover;
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
 	 bottom: 0;
 	 color: var(--main-fg-color);
 	 font-family: var(--main-font);
@@ -171,7 +175,7 @@ form .select {
 }
 
 #bar {
-	background-color: var(--main-bg-color-input);
+	background-color: var(--main-bg-color-input)F;
 	box-shadow: var(--main-box-sadow);
 	cursor: default;
 	display: flex;
@@ -191,7 +195,7 @@ form .select {
 
 
 #power {
-	background-color: var(--main-accent-color);
+	background-color: var(--main-accent-color)F;
 	margin-left: auto;
 	text-align: center;
 }
@@ -225,16 +229,20 @@ form .select {
 	right: auto;
 }
 
-#wrapper {
+#wrapper-inner {
+border-style:solid;
+	border-width:6px;
+	border-color: #38393A;
+	outline: 5px solid #B2996E;
 	background-color: var(--main-bg-color-panel);
 	box-shadow: var(--main-box-sadow);
 	left: 50%;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 2em;
+	padding: 3em;
 	position: absolute;
 	top: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	width: 30em;
+	width: 20em;
 }

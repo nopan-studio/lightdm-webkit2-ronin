@@ -1,6 +1,6 @@
 [theme]
-name=lightdm-webkit2-dmg_blue
-description=dmg_blue lightdm theme
+name=lightdm-webkit2-ronin
+description=ronin lightdm theme
 engine=lightdm-webkit2-greeter
 url=index.html
 session=bspwm

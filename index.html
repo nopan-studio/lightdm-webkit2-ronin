@@ -25,18 +25,20 @@
             </svg>
         </div>
     </div>
-
-    <div id="wrapper">
-        <span id="error-message"></span>
-        <form autocomplete="off">
-            <label class="select" id="users" tabindex=-1>
-                <span class="select-value">User</span>
-                <input class="select-input" type="checkbox">
-                <ul class="select-menu"></ul>
-            </label>
-            <input autofocus id="password" placeholder="password" tabindex="1" type="password">
-            <button type="submit" tabindex="2">Login</button>
-        </form>
+   
+    <div id="wrapper-outer">
+        <div id="wrapper-inner">
+            <span id="error-message"></span>
+            <form autocomplete="off">
+                <label class="select" id="users" tabindex=-1>
+                    <span class="select-value">User</span>
+                    <input class="select-input" type="checkbox">
+                    <ul class="select-menu"></ul>
+                </label>
+                <input autofocus id="password" placeholder="password" tabindex="1" type="password">
+                <button type="submit" tabindex="2">Login</button>
+            </form>
+        </div>
     </div>
 
     <!-- Vendor JavaScript -->
