@@ -1,8 +1,10 @@
-# lightdm-webkit2-dmg_blue
+# lightdm-webkit2-ronin
 
 Simple LightDM Webkit2 theme to match my desktop.
 
-![Image](https://github.com/davidmogar/lightdm-webkit2-dmg_blue/blob/resources/dmg_blue.png)
+forked from https://github.com/davidmogar/lightdm-webkit2-dmg_blue
+
+![Image](https://github.com/nopan-studio/lightdm-webkit2-ronin/blob/master/scrot.png)
 
 ## Features
 
